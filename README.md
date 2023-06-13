@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Reproduction companion for https://github.com/vercel/next.js/issues/51227
 
 ## What's the issue
 The following code works well locally but fails once deployed to Vercel:
