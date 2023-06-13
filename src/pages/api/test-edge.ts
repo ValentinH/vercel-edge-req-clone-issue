@@ -7,7 +7,7 @@ export const config = {
 
 export default async function handler(req: NextRequest) {
   const payload = await req.clone().json();
-  const payload2 = await req.json();
+  const payload2 = "" // await req.json();
 
   return NextResponse.json({ payload, payload2 });
 }
